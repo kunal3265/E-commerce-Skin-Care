@@ -1,0 +1,22 @@
+{
+  "name": "clay-and-kin-storefront",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Clay & Kin storefront: a dependency-free static build of the design, CRO and accessibility blueprint.",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/tasks.mjs build",
+    "images": "node scripts/tasks.mjs images",
+    "contrast": "node scripts/tasks.mjs contrast",
+    "audit": "node scripts/tasks.mjs audit",
+    "verify": "node scripts/tasks.mjs verify",
+    "verify:browser": "node scripts/tasks.mjs verify-browser",
+    "palette": "node scripts/tasks.mjs palette",
+    "serve": "node scripts/tasks.mjs serve"
+  },
+  "devDependencies": {
+    "axe-core": "^4.14.0",
+    "puppeteer-core": "^25.16.0",
+    "sharp": "^0.34.5"
+  }
+}

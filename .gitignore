@@ -1,0 +1,4 @@
+node_modules/
+.tmp-img/
+dist/
+project-id
