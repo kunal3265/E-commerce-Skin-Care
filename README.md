@@ -67,7 +67,7 @@ scripts/
   tasks.mjs           build · images · serve · contrast · audit · verify-browser · palette
 docs/                 blueprint + generated reports
 dist/                 portable build output — open dist/index.html directly
-screenshots/          14 captures at 1440×900 and 390×844
+screenshots/          18 captures at 1440×900 and 390×844
 ```
 
 ## Key implementation notes
@@ -91,7 +91,7 @@ screenshots/          14 captures at 1440×900 and 390×844
 - **Checkout.** Guest-only path, three steps, inline validation with Luhn check, numeric keypads
   for PIN/card/expiry/CVC, Indian states, error summary focus management, policies single-sourced
   with the PDP.
-- **Schema.** `Product` + per-size `Offer` + `AggregateRating` + `Review` + `BreadcrumbList` +
+- **Schema.** `Product` + per-size `Offer` + `BreadcrumbList` +
   `Organization` + `WebSite` + `ItemList` + `FAQPage`. The audit asserts JSON-LD price equals
   rendered price.
 - **Portable links.** The build rewrites internal URLs relative to each page and stamps

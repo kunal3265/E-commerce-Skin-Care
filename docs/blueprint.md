@@ -579,7 +579,7 @@ Those are required before a public accessibility statement is published.
 | Global | `Organization`, `WebSite` + `SearchAction` |
 | Home | `Organization`, `WebSite` |
 | Shop | `ItemList` (8 products) + `BreadcrumbList` |
-| PDP | `Product` (with `Offer` per size, `AggregateRating`, `Review`), `BreadcrumbList` |
+| PDP | `Product` (with `Offer` per size), `BreadcrumbList` |
 | Help | `FAQPage` |
 | Cart / checkout / account | `BreadcrumbList` only — transactional pages are not indexed |
 
@@ -713,7 +713,7 @@ Commands run against this build:
 npm run contrast     # 17 pairs, all pass (lowest 4.47:1 non-text, 4.79:1 text)
 npm run build        # 16 pages, catalog.js, sitemap, robots
 npm run audit        # 5 check groups pass; 50 WebP / 271 kB; 399 kB total assets (69.3 kB CSS, 48.8 kB JS)
-node scripts/tasks.mjs verify-browser   # axe: 0 violations; 14 screenshots; geometry table
+node scripts/tasks.mjs verify-browser   # axe: 0 violations; 18 screenshots; geometry table
 node scripts/tasks.mjs palette    # measured surface split, 8 page/viewport pairs
 ```
 
