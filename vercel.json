@@ -1,0 +1,4 @@
+{
+  "buildCommand": "npm run images && npm run build",
+  "outputDirectory": "dist"
+}

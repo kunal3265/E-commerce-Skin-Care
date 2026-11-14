@@ -110,3 +110,9 @@ blueprint §16 and §17.
 The brand domain and email are the reserved `clayandkin.example` placeholder. Set `brand.domain`
 and `brand.email` in `src/catalog.mjs` before publishing, so canonical URLs, JSON-LD,
 `sitemap.xml` and `robots.txt` point at the real host.
+
+## Deploying
+
+`vercel.json` sets the two things Vercel cannot infer: the build must generate the WebP packshots
+first (`npm run images`), and the output lives in `dist/` rather than Vercel's default `public/`.
+The same two values work for Netlify (`publish = "dist"`, `command = "npm run images && npm run build"`).
