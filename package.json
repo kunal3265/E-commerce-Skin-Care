@@ -2,7 +2,7 @@
   "name": "clay-and-kin-storefront",
   "version": "1.0.0",
   "private": true,
-  "description": "Clay & Kin storefront: a dependency-free static build of the design, CRO and accessibility blueprint.",
+  "description": "Clay & Kin — a barrier-first skincare storefront: 8 products, 16 static pages, INR pricing, guest checkout, zero third-party requests and 0 axe violations. Plain HTML, CSS and a small Node build.",
   "type": "module",
   "scripts": {
     "build": "node scripts/tasks.mjs build",
@@ -18,5 +18,6 @@
     "axe-core": "^4.14.0",
     "puppeteer-core": "^25.16.0",
     "sharp": "^0.34.5"
-  }
+  },
+  "homepage": "https://e-commerce-skin-care-nine.vercel.app"
 }
