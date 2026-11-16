@@ -1,6 +1,6 @@
 # Clay & Kin — storefront
 
-**Live:** https://e-commerce-skin-care-nine.vercel.app
+**Live:** https://clay-kin.vercel.app
 
 A dependency-free static storefront. The design, CRO and accessibility rules it follows are
 written down in [`docs/blueprint.md`](docs/blueprint.md); every rule a machine can check is
